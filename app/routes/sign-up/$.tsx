@@ -33,7 +33,7 @@ export default function SignUpPage() {
 
   // State
   const [errors, setErrors] = useState<any[]>([])
-  const [userCreated, setUserCreated] = useState<boolean>(true)
+  const [userCreated, setUserCreated] = useState<boolean>(false)
   const [showPassword, setShowPassword] = useState<boolean>(false)
   const [phoneFocused, setPhoneFocused] = useState<boolean>(false)
 
