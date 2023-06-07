@@ -89,7 +89,7 @@
 }
 
 .signup-basic-form .agree_tnc + .err-msg {
-    margin-left: 4px;
+    margin-left: 7px;
 }
 
 .signup-basic-form .agree_tnc label {
@@ -101,6 +101,7 @@
     color: rgb(228, 47, 47);
     font-size: 0.8125rem;
     margin-top: 4px;
+    margin-left: 4px;
 }
 
 .signup-basic-form .custom-form-item input:not(.PhoneInputInput):focus,
