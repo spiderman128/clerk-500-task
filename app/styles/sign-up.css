@@ -1,0 +1,164 @@
+.custom-section {
+    max-width: 420px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 30px #afafaf;
+}
+
+.custom-section .signup-description {
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.custom-section .signup-basic-form {
+    margin-top: 30px;
+}
+
+.signup-basic-form .custom-form-item {
+    margin-bottom: 15px;
+}
+
+.signup-basic-form .custom-form-item label {
+    display: block;
+    font-size: 0.8125rem;
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+.signup-basic-form .custom-form-item input:not(.PhoneInputInput),
+.signup-basic-form .custom-form-item .PhoneInput {
+    display: block;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0.625rem 1rem;
+    background-color: white;
+    color: black;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    width: 100%;
+    aspect-ratio: unset;
+    accent-color: rgb(16, 63, 239);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1.25;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    -webkit-font-smoothing: auto !important;
+}
+
+.signup-basic-form .custom-form-item .PhoneInput {
+    display: flex;
+    align-items: center;
+}
+
+.signup-basic-form .custom-form-item .PhoneInput input {
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.signup-basic-form .custom-form-item .PhoneInputCountry {
+    margin-right: 15px;
+}
+
+.signup-basic-form .custom-form-item .input-password {
+    position: relative;
+}
+
+.signup-basic-form .custom-form-item .input-password input {
+    padding-right: 40px;
+}
+
+.signup-basic-form .custom-form-item .input-password .pwd-option {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.signup-basic-form .agree_tnc {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signup-basic-form .agree_tnc + .err-msg {
+    margin-left: 4px;
+}
+
+.signup-basic-form .agree_tnc label {
+    margin-left: 10px;
+    font-size: 0.8125rem;
+}
+
+.signup-basic-form .err-msg {
+    color: rgb(228, 47, 47);
+    font-size: 0.8125rem;
+    margin-top: 4px;
+}
+
+.signup-basic-form .custom-form-item input:not(.PhoneInputInput):focus,
+.signup-basic-form .custom-form-item.focused .PhoneInput {
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: rgb(145, 167, 247) 0px 0px 0px 1px;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: ease;
+    transition-duration: 200ms;
+}
+
+.signup-basic-form .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #335bf1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all .3s;
+}
+
+.signup-basic-form .btn-submit:disabled {
+    cursor: not-allowed;
+}
+
+.signup-basic-form .btn-submit:not(:disabled):hover {
+    background-color: #334caa;
+}
+
+.signup-oauth-form {
+    margin-top: 40px;
+}
+
+.signup-oauth-form button {
+    width: 100%;
+    font-size: 0.8125rem;
+    display: flex;
+    padding: 9px 20px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #b3b3b3;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+
+.signup-oauth-form button:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+.signup-oauth-form .btn-oauth .g_logo {
+    margin-right: 10px;
+}
