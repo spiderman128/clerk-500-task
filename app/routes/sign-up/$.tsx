@@ -119,7 +119,7 @@ export default function SignUpPage() {
     return (
       <div className="custom-section">
         <img src="/logo.jpg" height={30} />
-        <h3 className="signup-description">Create your free AirChat account</h3>
+        <h4 className="signup-description">Create your free AirChat account</h4>
         <hr />
         <form onSubmit={handleSubmit} className="signup-basic-form">
           {/* Input Full Name */}
@@ -199,7 +199,7 @@ export default function SignUpPage() {
     return (
       <div className="custom-section">
         <img src="/logo.jpg" height={30} />
-        <h3 className="signup-description">Do you want to attach your Google account for an easier sign-in experience?</h3>
+        <h4 className="signup-description">Do you want to attach your Google account for an easier sign-in experience?</h4>
         <hr />
         <div className="signup-oauth-form">
           {/* BUTTON WITH GOOGLE */}

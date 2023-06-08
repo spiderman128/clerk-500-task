@@ -10,7 +10,7 @@ import Header from "~/components/Header";
 import styles from "~/styles/shared.css";
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "InnoSoft App" };
 };
 
 export const links = () => {

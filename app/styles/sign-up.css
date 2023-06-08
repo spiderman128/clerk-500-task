@@ -13,6 +13,12 @@
     margin-bottom: 30px;
     text-transform: capitalize;
     line-height: 30px;
+    color: #4e4e4e;
+}
+
+.custom-section .signup-description + hr {
+    border: none;
+    border-top: 1px solid #d9d9d9;
 }
 
 .custom-section .signup-basic-form {
