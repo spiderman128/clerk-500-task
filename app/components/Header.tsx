@@ -12,7 +12,7 @@ const Header = () => (
     <div className="left">
       <Link to="/" className="logo">
         <img src="/logo.svg" width="32" height="32" alt="Logo" />
-        <span className="appName">Your application</span>
+        <span className="appName">InnoSoft</span>
       </Link>
     </div>
     <div className="right">
